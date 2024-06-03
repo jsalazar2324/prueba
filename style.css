@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+.titol{
+    background-color: red;
+    width: 325px;
+    margin: auto;
+}
+h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    height: 589px;
+    width: 900px;
+    background-color: brwn;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: ani 3s linear infinite;
+    margin: auto;
+
+}
+@keyframes ani {
+    0% {background-image: url(./img/ani/back.png);}
+    11% {background-image: url(./img/ani/bean.png);}
+    23% {background-image: url(./img/ani/bond.png);}
+    34% {background-image: url(./img/ani/break.png);}
+    45% {background-image: url(./img/ani/ghost.png);}
+    56% {background-image: url(./img/ani/pulp.png);}
+    67% {background-image: url(./img/ani/rider.png);}
+    78% {background-image: url(./img/ani/taxi.png);}
+    89% {background-image: url(./img/ani/team.png);}
+}
+
+.contenedorimagenes{
+    background-color: yellw;
+    width: 930px;
+    height: 800px;
+    margin: auto;
+}
+.im{
+    height: 240px;
+    width: 300px;
+    background-color: blue;
+    margin: 5px 5px 20px 5px ;
+    float: left;
+    background-size: 100%;
+    background-size: no repeat;
+    position: relative;
+    opacity: 50%;
+}
+.im:hover{
+    opacity: 100%;
+    animation: rotate 3s infinite;
+}
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.primera{
+    background-image: url(./img/small/small_back.jpg);
+}
+.segona{
+    background-image: url(./img/small/small_bean.jpg);
+}
+.tercera{
+    background-image: url(./img/small/small_bond.jpg);
+}
+.quarta{
+    background-image: url(./img/small/small_break.jpg);
+}
+.quinta{
+    background-image: url(./img/small/small_ghost.jpg);
+}
+.sexta{
+    background-image: url(./img/small/small_pulp.jpg);
+}
+.septima{
+    background-image: url(./img/small/small_rider.jpg);
+}
+.octava{
+    background-image: url(./img/small/small_taxi.jpg);
+}
+.novena{
+    background-image: url(./img/small/small_team.jpg);
+}
+.fons{
+    background-image: url(./img/fons.jpg);
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    margin-top: 200px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.contenedorlogo{
+    width: 1000px;
+    height: 220px;
+    background-color: ed;
+    margin: auto;
+}
+.logo{
+    background-image: url(./img/logo_carsandfilms.png);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+}
